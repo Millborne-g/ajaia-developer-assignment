@@ -87,7 +87,7 @@ Examples that were actually corrected or rejected during this project:
 
 ## Limitations and Outstanding Work
 
-- `LIVE_URL.txt` points at https://ajaia-developer-assignment.vercel.app; `WALKTHROUGH_URL.txt` is still a placeholder pending walkthrough upload.
+- `LIVE_URL.txt` → https://ajaia-developer-assignment.vercel.app; `WALKTHROUGH_URL.txt` → Google Drive walkthrough video.
 - Formal two-user RLS/sharing matrix: **Not Verified** in this workflow log.
 - Live list + remote content sync via Realtime Postgres Changes; Realtime Presence avatars show co-editors; remote carets removed (unreliable); full CRDT collaboration still out of scope (last-write-wins on concurrent body edits).
 - Share dialog resolves collaborator emails via a profiles batch lookup (`fetchProfilesByIds`).

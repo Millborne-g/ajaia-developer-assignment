@@ -13,7 +13,7 @@
 - [x] `AI_WORKFLOW.md` documenting AI tool usage and verification
 - [x] `SUBMISSION.md` (this file)
 - [x] `LIVE_URL.txt` — https://ajaia-developer-assignment.vercel.app
-- [ ] `WALKTHROUGH_URL.txt` — placeholder until walkthrough is recorded
+- [x] `WALKTHROUGH_URL.txt` — https://drive.google.com/file/d/1XfnUckKuXJeIh_xjW1rmNwuR7sdES-lF/view?usp=sharing
 
 ## Source Repository
 
@@ -54,4 +54,4 @@ https://ajaia-developer-assignment.vercel.app
 - Email confirmation depends on Supabase project settings — may need to be disabled for testing
 - No document version history or comments
 - Editor Export menu supports Markdown (.md download) and PDF via the browser print dialog (Save as PDF)
-- `WALKTHROUGH_URL.txt` is still a placeholder until the walkthrough is recorded and uploaded
+- Walkthrough video: see `WALKTHROUGH_URL.txt` (Google Drive)

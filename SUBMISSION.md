@@ -12,16 +12,17 @@
 - [x] `ARCHITECTURE.md` with FSD structure, schema, and RLS design
 - [x] `AI_WORKFLOW.md` documenting AI tool usage and verification
 - [x] `SUBMISSION.md` (this file)
-- [ ] `LIVE_URL.txt` — placeholder until Vercel deployment
+- [x] `LIVE_URL.txt` — https://ajaia-developer-assignment.vercel.app
 - [ ] `WALKTHROUGH_URL.txt` — placeholder until walkthrough is recorded
 
 ## Source Repository
 
-GitHub repository URL: _[to be added after push]_
+GitHub repository URL: https://github.com/Millborne-g/ajaia-developer-assignment
 
 ## Live Deployment URL
 
-See `LIVE_URL.txt` — placeholder until Vercel deployment.
+https://ajaia-developer-assignment.vercel.app  
+(also in `LIVE_URL.txt`)
 
 ## Reviewer Access Instructions
 
@@ -53,4 +54,4 @@ See `LIVE_URL.txt` — placeholder until Vercel deployment.
 - Email confirmation depends on Supabase project settings — may need to be disabled for testing
 - No document version history or comments
 - Editor Export menu supports Markdown (.md download) and PDF via the browser print dialog (Save as PDF)
-- `WALKTHROUGH_URL.txt` and `LIVE_URL.txt` are placeholders until deployment and recording are complete
+- `WALKTHROUGH_URL.txt` is still a placeholder until the walkthrough is recorded and uploaded

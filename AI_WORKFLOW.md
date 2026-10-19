@@ -60,7 +60,7 @@ Commands used during development (when run, results were observed in-session):
 
 | Check | Command | Notes |
 |---|---|---|
-| Unit tests | `npm test` | Vitest suite (import converters + mocked `documentApi` + related units); **48 tests / 7 files** — re-run before submission |
+| Unit tests | `npm test` | Vitest suite (import converters + mocked `documentApi` + related units); **62 tests / 8 files** — re-run before submission |
 | Lint | `npm run lint` | ESLint; cleaned to zero errors after theme/hook lint fixes |
 | Build / types | `npm run build` | `tsc -b && vite build` |
 
@@ -91,5 +91,5 @@ Examples that were actually corrected or rejected during this project:
 - Formal two-user RLS/sharing matrix: **Not Verified** in this workflow log.
 - Live list + remote content sync via Realtime Postgres Changes; Realtime Presence avatars show co-editors; remote carets removed (unreliable); full CRDT collaboration still out of scope (last-write-wins on concurrent body edits).
 - Share dialog resolves collaborator emails via a profiles batch lookup (`fetchProfilesByIds`).
-- Sharing is edit-only in the product UI; view-only is not offered.
+- Sharing supports **View** (read-only editor) and **Edit** permissions; owners can change or revoke access from the Share dialog.
 - Cursor rules/skills improve consistency; they do not replace human review of security-sensitive changes.
